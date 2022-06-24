@@ -14,5 +14,5 @@ jobs:
         dest: moba_rp.zip
     - uses: actions/upload-artifact@v1
       with:
-      name: my-artifact
-      path: ${{ github.workspace }}/moba_rp.zip
+        name: my-artifact
+        path: ${{ github.workspace }}/moba_rp.zip
