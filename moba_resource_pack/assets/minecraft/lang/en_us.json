@@ -2851,7 +2851,7 @@
   "attribute.name.generic.luck": "Luck",
   "attribute.name.generic.armor": "Armor",
   "attribute.name.generic.armor_toughness": "Armor Toughness",
-  "attribute.name.moba.defense": "Defense",
+  "attribute.name.moba.shield": "Shield",
   "attribute.name.moba.critical_strike": "Critical Strike",
   "attribute.name.moba.critical_chance": "Critical Chance",
   "attribute.name.moba.health_regen": "Health Regeneration",
