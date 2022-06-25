@@ -1,6 +1,7 @@
 name: Create Resource Pack
 
 on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
