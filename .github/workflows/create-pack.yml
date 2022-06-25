@@ -23,7 +23,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Echo upload path
-      run: echo ${{steps.upload.outputs.upload-path}}
+      run: echo ${{ steps.upload.outputs.upload-path }}
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
