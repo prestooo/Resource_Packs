@@ -13,14 +13,18 @@ jobs:
       with:
         files: /moba_resource_pack
         dest: moba_rp.zip
+    - name: setting up some variables
+      id: vars
+      shell: bash
+      run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
       with:
-        tag_name: test
-        release_name: Server RP
+        tag_name: v${{ steps.vars.outputs.sha_short }}
+        release_name: Server RP ${{ steps.vars.outputs.sha_short }}
         body: |
           The latest resource pack for my server
         draft: false
