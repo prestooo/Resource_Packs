@@ -33,7 +33,6 @@ jobs:
       with:
         tag_name: test
         release_name: Server RP
-        upload_url: 
         body: |
           The latest resource pack for my server
         draft: false
