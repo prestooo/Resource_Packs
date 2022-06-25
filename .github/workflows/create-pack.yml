@@ -5,6 +5,7 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: "!startsWith(github.event.head_commit.message, '!')"
     steps:
     - name: Checkout code
       uses: actions/checkout@master
