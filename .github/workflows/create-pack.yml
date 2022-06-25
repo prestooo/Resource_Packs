@@ -14,10 +14,12 @@ jobs:
       with:
         files: /moba_resource_pack
         dest: moba_rp.zip
-    - name: setting up some variables
+    - name: setting up some variables and other configs
       id: vars
       shell: bash
-      run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+      run: |
+        echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+        git tag | xargs git tag -d
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
