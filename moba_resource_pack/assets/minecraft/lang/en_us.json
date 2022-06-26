@@ -5162,6 +5162,7 @@
   "compliance.playtime.greaterThan24Hours": "You've been playing for greater than 24 hours",
   "compliance.playtime.message": "Excessive gaming may interfere with normal daily life",
   "compliance.playtime.hours": "You've been playing for %s hour(s)",
+  "stat.name.defense": "Defense",
   "stat.name.shield": "Shield",
   "stat.name.critical_strike": "Critical Strike",
   "stat.name.critical_chance": "Critical Chance",
