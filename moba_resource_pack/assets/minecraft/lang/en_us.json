@@ -2851,12 +2851,6 @@
   "attribute.name.generic.luck": "Luck",
   "attribute.name.generic.armor": "Armor",
   "attribute.name.generic.armor_toughness": "Armor Toughness",
-  "attribute.name.moba.shield": "Shield",
-  "attribute.name.moba.critical_strike": "Critical Strike",
-  "attribute.name.moba.critical_chance": "Critical Chance",
-  "attribute.name.moba.health_regen": "Health Regeneration",
-  "attribute.name.moba.mana": "Max Mana",
-  "attribute.name.moba.mana_regen": "Mana Regeneration",
   "screenshot.success": "Saved screenshot as %s",
   "screenshot.failure": "Couldn't save screenshot: %s",
   "block.minecraft.black_banner": "Black Banner",
@@ -5167,5 +5161,11 @@
   "sleep.skipping_night": "Sleeping through this night",
   "compliance.playtime.greaterThan24Hours": "You've been playing for greater than 24 hours",
   "compliance.playtime.message": "Excessive gaming may interfere with normal daily life",
-  "compliance.playtime.hours": "You've been playing for %s hour(s)"
+  "compliance.playtime.hours": "You've been playing for %s hour(s)",
+  "stat.name.shield": "Shield",
+  "stat.name.critical_strike": "Critical Strike",
+  "stat.name.critical_chance": "Critical Chance",
+  "stat.name.health_regen": "Health Regeneration",
+  "stat.name.mana": "Max Mana",
+  "stat.name.mana_regen": "Mana Regeneration"
 }
