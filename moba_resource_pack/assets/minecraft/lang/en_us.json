@@ -5168,5 +5168,6 @@
   "stat.name.critical_chance": "Critical Chance",
   "stat.name.health_regen": "Health Regeneration",
   "stat.name.mana": "Max Mana",
-  "stat.name.mana_regen": "Mana Regeneration"
+  "stat.name.mana_regen": "Mana Regeneration",
+  "death.attack.suicide": "%s died to suicide!"
 }
